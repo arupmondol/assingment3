@@ -229,7 +229,31 @@
         <div class="col-lg-3 ">
           <div class="text-primary">
             <div class="card-body pt-3 mt-5 text-primary">
-              <a href="#" class="btn btn-light text-primary blockquote">Register Now</a>
+              <a href="#" class="btn btn-light text-primary blockquote">
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Register
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        You Should be enrole this course. Then You Should learn about it. You Should be a pro devoloper. Then you can bright your future.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+              </a>
             </div>
           </div>
         </div>
@@ -241,21 +265,88 @@
   <!--section3 start-->
   <section class="section-3">
     <div class="sec3-div1">
-
+      <div class=" text-center">
+        <div class="card-body">
+          <h5 class="card-title pb-3">Frequently Asked Question</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional. <p>So you can know more about it.</p></p>
+        </div>
+      </div>
+      
+      
     </div>
 
     <div class="sec3-div2">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button bg-secondary bg-opacity-10" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Difference between Grid  and Flexbox
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Bootstap vs Tailwind
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Bootstrap's utility and layout classes provide you with everything you need to style a responsive webpage. With Tailwind, however, you are much more involved in styling the webpage because you end up having to create your own components using the utility classes that the framework offers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What is CSS Box Model?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What is a Semantic Tag?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </section>
 
   <!--section4 start-->
-  <setion class="section-4">
+  <setion class="section-4 mt-5">
 
-    <div class="sec4-div1">
+    <div class="sec4-div1 align-content-center m-lg-auto pe-auto">
+      <h1 class="text-aling-center mb-3 mt-5 ps-5 ms-5 ">Trusted by over 800+ companies</h1>
 
     </div>
     <div class="sec4-div2">
+      <div class="row w-auto m-auto pe-auto">
+        <div class="col-lg-2 p-2 "><img src="./images/company/company-1.png" alt=""></div>
+        <div class="col-lg-2 p-2"><img src="./images/company/company-2.png" alt=""></div>
+        <div class="col-lg-2 p-2"><img src="./images/company/company-3.png" alt=""></div>
+        <div class="col-lg-2 p-2"><img src="./images/company/company-4.png" alt=""></div>
+        <div class="col-lg-2 p-2"><img src="./images/company/company-5.png" alt=""></div>
+        <div class="col-lg-2 p-2"><img src="./images/company/company-6.png" alt=""></div>
+      </div>
 
     </div>
   </setion>
